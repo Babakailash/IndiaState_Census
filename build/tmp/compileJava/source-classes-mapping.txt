@@ -5,3 +5,5 @@ com/census/CensusAnalyserException.java
  com.census.CensusAnalyserException$CensusExceptionType
 com/census/StateCensusAnalyser.java
  com.census.StateCensusAnalyser
+com/census/CSVState.java
+ com.census.CSVState
