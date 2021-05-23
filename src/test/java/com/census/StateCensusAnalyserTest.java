@@ -41,4 +41,16 @@ public class StateCensusAnalyserTest {
             Assertions.assertEquals(CensusAnalyserException.CensusExceptionType.INCORRECT_DATA_ISSUE, e.type);
         }
     }
+
+    @Test
+    public void GivenTheStateCodeCSVFile_WhenCorrect_ButDelimiterIncorrect_ReturnsCensusAnalyserException() throws IOException {
+        StateCensusAnalyser stateCensusAnalyser = new StateCensusAnalyser();
+        try {
+            int count = stateCensusAnalyser.openCsvBuilder(STATECODES_CSVFILE, CSVState.class);
+        } catch (CensusAnalyserException e) {
+            e.printStackTrace();
+            Assertions.assertEquals(CensusAnalyserException.CensusExceptionType.INCORRECT_DATA_ISSUE, e.type);
+
+        }
+    }
 }

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.census.StateCensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-23T10:34:09" hostname="DESKTOP-N6M0MS9" time="0.29">
+<testsuite name="com.census.StateCensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-23T10:40:20" hostname="DESKTOP-N6M0MS9" time="0.462">
   <properties/>
-  <testcase name="GivenTheStateCodeCsvFile_WhenCorrect_ButFileExtensionIncorrect_ShouldThrowCensusAnalyserException()" classname="com.census.StateCensusAnalyserTest" time="0.29"/>
+  <testcase name="GivenTheStateCodeCSVFile_WhenCorrect_ButDelimiterIncorrect_ReturnsCensusAnalyserException()" classname="com.census.StateCensusAnalyserTest" time="0.462"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[com.census.CensusAnalyserException: delimiter error at line 1 OR might be some error related to headers or incorrect extension / input file 
 	at com.census.StateCensusAnalyser.getIterator(StateCensusAnalyser.java:51)
 	at com.census.StateCensusAnalyser.openCsvBuilder(StateCensusAnalyser.java:21)
-	at com.census.StateCensusAnalyserTest.GivenTheStateCodeCsvFile_WhenCorrect_ButFileExtensionIncorrect_ShouldThrowCensusAnalyserException(StateCensusAnalyserTest.java:38)
+	at com.census.StateCensusAnalyserTest.GivenTheStateCodeCSVFile_WhenCorrect_ButDelimiterIncorrect_ReturnsCensusAnalyserException(StateCensusAnalyserTest.java:49)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
