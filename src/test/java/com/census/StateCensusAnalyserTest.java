@@ -11,12 +11,12 @@ public class StateCensusAnalyserTest {
 
     @Test
     public void GivenTheStateCodesCsvFile_IfHasCorrectNumberOfRecords_ShouldReturnTrue() throws IOException {
-       /* try {
+        try {
             int count = StateCensusAnalyser.openCsvBuilder(STATECENSUS_CSVFILE, CSVStateCensus.class);
             System.out.println(count);
             Assertions.assertEquals(29, count);
         } catch (CensusAnalyserException e) {
             e.printStackTrace();
         }
-    }*/
-    }}
+    }
+    }

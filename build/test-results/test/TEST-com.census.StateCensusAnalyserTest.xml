@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.census.StateCensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-23T07:00:13" hostname="DESKTOP-N6M0MS9" time="0.626">
+<testsuite name="com.census.StateCensusAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-23T07:49:17" hostname="DESKTOP-N6M0MS9" time="0.38">
   <properties/>
-  <testcase name="GivenTheStateCodesCsvFile_IfHasCorrectNumberOfRecords_ShouldReturnTrue()" classname="com.census.StateCensusAnalyserTest" time="0.626"/>
+  <testcase name="GivenTheStateCodesCsvFile_IfHasCorrectNumberOfRecords_ShouldReturnTrue()" classname="com.census.StateCensusAnalyserTest" time="0.38"/>
   <system-out><![CDATA[stateName='Uttar Pradesh', population='199812341', areaInSqKm='240928', densityPerSqKm='828'
 
 stateName='Maharashtra', population='112372972', areaInSqKm='307713', densityPerSqKm='365'
